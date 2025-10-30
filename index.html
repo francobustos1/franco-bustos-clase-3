@@ -2,15 +2,23 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Título cambiador de color</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Ejemplo de DOM en VS Code</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
-  <button id="hola">Click aquí</button>
-  <h1 id="titulo">Título cambiador de color</h1>
-  <p>Haz clic en el botón para cambiar el color del título.</p>
+  <h1 id="titulo">Hola desde el DOM</h1>
+  <button id="boton">Cambiar texto</button>
 
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
